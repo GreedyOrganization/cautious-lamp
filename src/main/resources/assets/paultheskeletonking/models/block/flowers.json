@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "paultheskeletonking:blocks/a",
-    "particle": "paultheskeletonking:blocks/a"
-  },
-  "render_type": "cutout"
-}

@@ -8,18 +8,12 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.paultheskeletonking.item.BossItem;
 import net.mcreator.paultheskeletonking.PaultheskeletonkingMod;
 
 public class PaultheskeletonkingModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, PaultheskeletonkingMod.MODID);
-	public static final RegistryObject<Item> FLOWERS = block(PaultheskeletonkingModBlocks.FLOWERS, CreativeModeTab.TAB_DECORATIONS);
-
-	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
-		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
-	}
+	public static final RegistryObject<Item> BOSS = REGISTRY.register("boss", () -> new BossItem());
 }

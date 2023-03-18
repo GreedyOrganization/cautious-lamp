@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Boss",
+    "texture": "image823",
+    "description": "Greedy-Noob",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": true,
+    "music": {
+      "value": "ambient.cave"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

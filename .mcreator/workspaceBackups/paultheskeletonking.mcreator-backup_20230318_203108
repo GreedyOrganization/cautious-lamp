@@ -1,26 +1,9 @@
 {
-  "mod_elements": [
-    {
-      "name": "Boss",
-      "type": "musicdisc",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "boss",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/paultheskeletonking/models/item/boss.json",
-          "src/main/java/net/mcreator/paultheskeletonking/item/BossItem.java"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "item.paultheskeletonking.boss.desc": "Greedy-Noob",
-      "item.paultheskeletonking.boss": "Boss"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
