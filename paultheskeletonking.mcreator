@@ -1,30 +1,14 @@
 {
   "mod_elements": [
     {
-      "name": "Boss",
-      "type": "musicdisc",
-      "sortid": 2,
+      "name": "Sz",
+      "type": "potioneffect",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "boss",
+      "registry_name": "sz",
       "metadata": {
         "files": [
-          "src/main/resources/assets/paultheskeletonking/models/item/boss.json",
-          "src/main/java/net/mcreator/paultheskeletonking/item/BossItem.java"
-        ]
-      }
-    },
-    {
-      "name": "Big",
-      "type": "musicdisc",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "big",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/paultheskeletonking/models/item/big.json",
-          "src/main/java/net/mcreator/paultheskeletonking/item/BigItem.java"
+          "src/main/java/net/mcreator/paultheskeletonking/potion/SzMobEffect.java"
         ]
       }
     }
@@ -33,10 +17,7 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.paultheskeletonking.big": "Big",
-      "item.paultheskeletonking.boss.desc": "Greedy-Noob",
-      "item.paultheskeletonking.big.desc": "Good music for good people",
-      "item.paultheskeletonking.boss": "Boss"
+      "effect.paultheskeletonking.sz": "weh45w"
     }
   },
   "foldersRoot": {
