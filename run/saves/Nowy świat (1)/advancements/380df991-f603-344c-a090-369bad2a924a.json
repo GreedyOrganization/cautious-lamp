@@ -1,0 +1,17 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2023-03-18 23:01:29 +0100",
+      "minecraft:forest": "2023-03-18 23:01:23 +0100",
+      "minecraft:desert": "2023-03-18 23:02:08 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2023-03-18 23:01:49 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

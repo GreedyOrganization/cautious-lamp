@@ -1,0 +1,55 @@
+{
+  "mod_elements": [
+    {
+      "name": "TheForgottenKingdom",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_forgotten_kingdom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paultheskeletonking/world/dimension/TheForgottenKingdomDimension.java",
+          "src/main/java/net/mcreator/paultheskeletonking/block/TheForgottenKingdomPortalBlock.java",
+          "src/main/resources/assets/paultheskeletonking/models/item/the_forgotten_kingdom.json",
+          "src/main/resources/assets/paultheskeletonking/models/block/the_forgotten_kingdom_portal_ew.json",
+          "src/main/java/net/mcreator/paultheskeletonking/item/TheForgottenKingdomItem.java",
+          "src/main/resources/assets/paultheskeletonking/models/block/the_forgotten_kingdom_portal_ns.json",
+          "src/main/resources/data/paultheskeletonking/dimension_type/the_forgotten_kingdom.json",
+          "src/main/resources/assets/paultheskeletonking/blockstates/the_forgotten_kingdom_portal.json",
+          "src/main/java/net/mcreator/paultheskeletonking/world/teleporter/TheForgottenKingdomTeleporter.java",
+          "src/main/java/net/mcreator/paultheskeletonking/world/teleporter/TheForgottenKingdomPortalShape.java",
+          "src/main/resources/data/paultheskeletonking/dimension/the_forgotten_kingdom.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.paultheskeletonking.the_forgotten_kingdom": "Burning bone"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "paultheskeletonking",
+    "modName": "Paultheskeletonking",
+    "version": "1.0.0",
+    "author": "Admin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.paultheskeletonking",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

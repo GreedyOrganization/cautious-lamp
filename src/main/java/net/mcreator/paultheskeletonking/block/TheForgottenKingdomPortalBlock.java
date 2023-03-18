@@ -33,7 +33,7 @@ import java.util.Optional;
 
 public class TheForgottenKingdomPortalBlock extends NetherPortalBlock {
 	public TheForgottenKingdomPortalBlock() {
-		super(BlockBehaviour.Properties.of(Material.PORTAL).noCollission().randomTicks().strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 2).noLootTable());
+		super(BlockBehaviour.Properties.of(Material.PORTAL).noCollission().randomTicks().strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 10).noLootTable());
 	}
 
 	@Override

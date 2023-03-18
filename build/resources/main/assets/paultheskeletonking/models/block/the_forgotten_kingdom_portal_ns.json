@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "paultheskeletonking:blocks/bone_block_side",
-    "portal": "paultheskeletonking:blocks/bone_block_side"
+    "particle": "paultheskeletonking:blocks/portal_frame",
+    "portal": "paultheskeletonking:blocks/portal_frame"
   },
   "elements": [
     {
