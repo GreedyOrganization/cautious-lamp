@@ -1,0 +1,47 @@
+{
+  "mod_elements": [
+    {
+      "name": "Pistol",
+      "type": "rangeditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paultheskeletonking/item/PistolItem.java",
+          "src/main/java/net/mcreator/paultheskeletonking/entity/PistolEntity.java",
+          "src/main/resources/assets/paultheskeletonking/models/item/pistol.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.paultheskeletonking.pistol": "Pistol"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "paultheskeletonking",
+    "modName": "Paultheskeletonking",
+    "version": "1.0.0",
+    "author": "Admin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.paultheskeletonking",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
