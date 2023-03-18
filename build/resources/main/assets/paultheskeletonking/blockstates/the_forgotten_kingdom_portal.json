@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "paultheskeletonking:block/the_forgotten_kingdom_portal_ew"
+    },
+    "axis=x": {
+      "model": "paultheskeletonking:block/the_forgotten_kingdom_portal_ns"
+    }
+  }
+}
