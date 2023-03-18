@@ -30,7 +30,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.paultheskeletonking.init.PaultheskeletonkingModMobEffects;
-import net.mcreator.paultheskeletonking.init.PaultheskeletonkingModItems;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -50,8 +49,6 @@ public class PaultheskeletonkingMod {
 		MinecraftForge.EVENT_BUS.register(this);
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
-		PaultheskeletonkingModItems.REGISTRY.register(bus);
 
 		PaultheskeletonkingModMobEffects.REGISTRY.register(bus);
 
