@@ -13,15 +13,24 @@
           "src/main/java/net/mcreator/paultheskeletonking/item/BOmbaItem.java"
         ]
       }
+    },
+    {
+      "name": "Sz",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sz",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paultheskeletonking/potion/SzMobEffect.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "item.paultheskeletonking.b_omba": "B Omba",
-      "item.paultheskeletonking.b_omba.desc": "asfgaggghjj"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
