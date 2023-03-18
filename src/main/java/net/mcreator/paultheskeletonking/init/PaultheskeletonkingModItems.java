@@ -10,12 +10,10 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
-import net.mcreator.paultheskeletonking.item.BossItem;
-import net.mcreator.paultheskeletonking.item.BigItem;
+import net.mcreator.paultheskeletonking.item.BOmbaItem;
 import net.mcreator.paultheskeletonking.PaultheskeletonkingMod;
 
 public class PaultheskeletonkingModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, PaultheskeletonkingMod.MODID);
-	public static final RegistryObject<Item> BIG = REGISTRY.register("big", () -> new BigItem());
-	public static final RegistryObject<Item> BOSS = REGISTRY.register("boss", () -> new BossItem());
+	public static final RegistryObject<Item> B_OMBA = REGISTRY.register("b_omba", () -> new BOmbaItem());
 }

@@ -2,16 +2,16 @@
   "_fv": 39,
   "_type": "musicdisc",
   "definition": {
-    "name": "Boss",
+    "name": "B Omba",
     "texture": "image823",
-    "description": "Greedy-Noob",
+    "description": "asfgaggghjj",
     "creativeTab": {
       "value": "MISC"
     },
     "specialInfo": [],
-    "hasGlow": true,
+    "hasGlow": false,
     "music": {
-      "value": "ambient.cave"
+      "value": "ambient.crimson_forest.loop"
     },
     "lengthInTicks": 100,
     "analogOutput": 0
