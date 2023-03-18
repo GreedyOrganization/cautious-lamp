@@ -29,8 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.paultheskeletonking.init.PaultheskeletonkingModMobEffects;
-import net.mcreator.paultheskeletonking.init.PaultheskeletonkingModItems;
+import net.mcreator.paultheskeletonking.init.PaultheskeletonkingModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -51,10 +50,7 @@ public class PaultheskeletonkingMod {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		PaultheskeletonkingModItems.REGISTRY.register(bus);
-
-		PaultheskeletonkingModMobEffects.REGISTRY.register(bus);
-
+		PaultheskeletonkingModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
