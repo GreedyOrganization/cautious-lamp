@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.paultheskeletonking.init.PaultheskeletonkingModItems;
 import net.mcreator.paultheskeletonking.init.PaultheskeletonkingModBlocks;
+import net.mcreator.paultheskeletonking.init.PaultheskeletonkingModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -54,6 +55,7 @@ public class PaultheskeletonkingMod {
 		PaultheskeletonkingModBlocks.REGISTRY.register(bus);
 		PaultheskeletonkingModItems.REGISTRY.register(bus);
 
+		PaultheskeletonkingModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

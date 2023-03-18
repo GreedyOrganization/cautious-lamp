@@ -21,14 +21,27 @@
           "src/main/resources/data/paultheskeletonking/dimension/the_forgotten_kingdom.json"
         ]
       }
+    },
+    {
+      "name": "ForgottenLands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forgotten_lands",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paultheskeletonking/world/biome/ForgottenLandsBiome.java",
+          "src/main/java/net/mcreator/paultheskeletonking/world/features/treedecorators/ForgottenLandsTrunkDecorator.java",
+          "src/main/java/net/mcreator/paultheskeletonking/world/features/treedecorators/ForgottenLandsFruitDecorator.java",
+          "src/main/java/net/mcreator/paultheskeletonking/world/features/treedecorators/ForgottenLandsLeaveDecorator.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "item.paultheskeletonking.the_forgotten_kingdom": "Burning bone"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
