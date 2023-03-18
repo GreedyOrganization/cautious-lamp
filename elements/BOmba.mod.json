@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "B Omba",
+    "texture": "image823",
+    "description": "asfgaggghjj",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "ambient.crimson_forest.loop"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

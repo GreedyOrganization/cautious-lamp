@@ -1,28 +1,30 @@
 {
   "mod_elements": [
     {
-      "name": "BOmba",
+      "name": "Boss",
       "type": "musicdisc",
-      "sortid": 3,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "b_omba",
+      "registry_name": "boss",
       "metadata": {
         "files": [
-          "src/main/resources/assets/paultheskeletonking/models/item/b_omba.json",
-          "src/main/java/net/mcreator/paultheskeletonking/item/BOmbaItem.java"
+          "src/main/resources/assets/paultheskeletonking/models/item/boss.json",
+          "src/main/java/net/mcreator/paultheskeletonking/item/BossItem.java"
         ]
       }
     },
     {
-      "name": "Sz",
-      "type": "potioneffect",
+      "name": "Big",
+      "type": "musicdisc",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sz",
+      "registry_name": "big",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/paultheskeletonking/potion/SzMobEffect.java"
+          "src/main/resources/assets/paultheskeletonking/models/item/big.json",
+          "src/main/java/net/mcreator/paultheskeletonking/item/BigItem.java"
         ]
       }
     }
@@ -30,7 +32,12 @@
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.paultheskeletonking.big": "Big",
+      "item.paultheskeletonking.boss.desc": "Greedy-Noob",
+      "item.paultheskeletonking.big.desc": "Good music for good people",
+      "item.paultheskeletonking.boss": "Boss"
+    }
   },
   "foldersRoot": {
     "name": "~",

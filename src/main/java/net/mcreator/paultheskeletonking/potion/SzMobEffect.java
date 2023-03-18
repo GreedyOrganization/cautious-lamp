@@ -1,10 +1,8 @@
 
 package net.mcreator.paultheskeletonking.potion;
 
-import net.minecraft.world.effect.MobEffectCategory;
-import net.minecraft.world.effect.MobEffect;
-
 public class SzMobEffect extends MobEffect {
+
 	public SzMobEffect() {
 		super(MobEffectCategory.NEUTRAL, -1);
 	}
@@ -23,4 +21,5 @@ public class SzMobEffect extends MobEffect {
 	public boolean isDurationEffectTick(int duration, int amplifier) {
 		return true;
 	}
+
 }
