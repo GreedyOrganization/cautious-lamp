@@ -1,0 +1,50 @@
+{
+  "mod_elements": [
+    {
+      "name": "Flowers",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flowers",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paultheskeletonking/models/item/flowers.json",
+          "src/main/resources/assets/paultheskeletonking/blockstates/flowers.json",
+          "src/main/resources/data/paultheskeletonking/forge/biome_modifier/flowers_biome_modifier.json",
+          "src/main/resources/assets/paultheskeletonking/models/block/flowers.json",
+          "src/main/java/net/mcreator/paultheskeletonking/world/features/plants/FlowersFeature.java",
+          "src/main/java/net/mcreator/paultheskeletonking/block/FlowersBlock.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.paultheskeletonking.flowers": "Flowers"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "paultheskeletonking",
+    "modName": "Paultheskeletonking",
+    "version": "1.0.0",
+    "author": "Admin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.paultheskeletonking",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
