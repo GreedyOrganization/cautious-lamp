@@ -41,7 +41,10 @@
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.paultheskeletonking.the_forgotten_kingdom": "Burning bone",
+      "biome.paultheskeletonking.forgotten_lands": "Forgotten Lands"
+    }
   },
   "foldersRoot": {
     "name": "~",

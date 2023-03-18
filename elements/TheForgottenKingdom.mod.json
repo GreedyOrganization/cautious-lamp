@@ -4,7 +4,7 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "desert"
+        "value": "CUSTOM:ForgottenLands"
       }
     ],
     "worldGenType": "End like gen",
@@ -29,11 +29,11 @@
       "value": "Blocks.BONE_BLOCK"
     },
     "portalParticles": {
-      "value": "PORTAL"
+      "value": "SOUL_FIRE_FLAME"
     },
     "portalLuminance": 10,
     "portalSound": {
-      "value": "block.portal.ambient"
+      "value": "ambient.basalt_deltas.loop"
     },
     "igniterName": "Burning bone",
     "igniterTab": {
